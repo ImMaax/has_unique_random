@@ -5,7 +5,6 @@ require_relative 'boot'
 require 'rails/all'
 
 Bundler.require(*Rails.groups)
-require "has_unique_random"
 
 module Dummy
   class Application < Rails::Application
